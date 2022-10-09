@@ -46,7 +46,7 @@ export default function Home() {
           <a href='https://twitter.com/BatmathDev' target='_blank' rel="noreferrer"><AiFillTwitterCircle /></a>
         </div>
         <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96'>
-          <Image src={deved} layout='fill' objectFit='cover'/>
+          <Image src={deved} alt='image not found' layout='fill' objectFit='cover'/>
         </div>
       </section>
 
@@ -78,7 +78,7 @@ export default function Home() {
           <div className='flex flex-col lg:flex-row lg:flex-wrap lg:gap-10'>
             <div className='basis-1/3 flex-1 text-center shadow-lg p-5 py-5 rounded-xl my-10 dark:bg-teal-600'>
             <h4 className='pb-5 text-teal-600 dark:text-white'>Tech Store E-commerce</h4>
-              <a href='https://tech-store-prod.vercel.app/' target="_blank" rel="noreferrer"><Image src={web2} className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive" '/></a>
+              <a href='https://tech-store-prod.vercel.app/' target="_blank" rel="noreferrer"><Image src={web2} alt='image not found' className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive" '/></a>
               <p className='text-md pt-5 leading-8 text-gray-800 dark:text-white'>The project consists of a <span className='text-teal-600 dark:text-gray-900'>virtual store of technological articles.</span> On it you can find products by categories that can be filtered by shipping cost, price range and in ascending and descending order, as well as added to a wishlist or directly to a shopping cart.
               </p>
               <p className=' flex justify-center gap-2 text-2xl py-5 leading-5 text-gray-800 dark:text-white'> 
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1 text-center shadow-lg p-5 py-5 rounded-xl my-10 dark:bg-teal-600'>
               <h4 className='pb-5 text-teal-600 dark:text-white'>Dogs App</h4>
-              <a href='https://dogs-app-jade.vercel.app/' target="_blank" rel="noreferrer"><Image src={web1} className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive"'/></a>
+              <a href='https://dogs-app-jade.vercel.app/' target="_blank" rel="noreferrer"><Image src={web1} alt='image not found' className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive"'/></a>
               <p className='text-md pt-5 leading-8 text-gray-800 dark:text-white'>The project consists of a <span className='text-teal-600 dark:text-gray-900'>SPA (Single Page Application) </span>that consumes data from an API and allows both the visualization, filtering and sorting of more than 150 dog breeds, as well as the possibility of creating new breeds and adding them to a database.
               </p>
               <p className=' flex justify-center gap-2 text-2xl py-5 leading-5 text-gray-800 dark:text-white'> 
