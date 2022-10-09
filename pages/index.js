@@ -29,21 +29,21 @@ export default function Home() {
             <li onClick={() => setDarkmode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'>
               {!darkMode ? <BsFillMoonStarsFill  /> : <BsFillSunFill/>}
               </li>
-            <li><a className='bg-teal-600 text-white px-4 py-2 rounded-md ml-8' href='../public/resume.pdf' target='_blank'>Resume</a></li>
+            <li><a className='bg-teal-600 text-white px-4 py-2 rounded-md ml-8' href='../public/resume.pdf' target='_blank' rel="noreferrer">Resume</a></li>
           </ul>
         </nav>
         <div className='text-center p-10'>
           <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Alejandro Quintero Mejia</h2>
           <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Web Developer and Mathematician</h3>
-          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>I like to combine the skill and tools acquired in both profiles, in order to efficiently resolve the different challenges present in tech. I'm in love with 
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>I like to combine the skill and tools acquired in both profiles, in order to efficiently resolve the different challenges present in tech. I am in love with 
           <span className='text-teal-500'> Software Development, Blockchain</span> and <span className='text-teal-500'> Artificial Intelligence</span>
           </p>
         </div>
         <div className='text-5xl flex justify-center gap-16 py-1 text-gray-800 dark:text-white'>
-          <a href='https://github.com/AlejoMejia96' target='_blank'><AiFillGithub /></a>
-          <a href='https://www.linkedin.com/in/alejandro-quintero-mejia' target='_blank'><AiFillLinkedin /></a>
-          <a href='	https://medium.com/@alejandroquinteromejia' target='_blank'><AiFillMediumCircle /></a>
-          <a href='https://twitter.com/BatmathDev' target='_blank'><AiFillTwitterCircle /></a>
+          <a href='https://github.com/AlejoMejia96' target='_blank' rel="noreferrer" ><AiFillGithub /></a>
+          <a href='https://www.linkedin.com/in/alejandro-quintero-mejia' target='_blank' rel="noreferrer"><AiFillLinkedin /></a>
+          <a href='	https://medium.com/@alejandroquinteromejia' target='_blank' rel="noreferrer"><AiFillMediumCircle /></a>
+          <a href='https://twitter.com/BatmathDev' target='_blank' rel="noreferrer"><AiFillTwitterCircle /></a>
         </div>
         <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96'>
           <Image src={deved} layout='fill' objectFit='cover'/>
@@ -78,7 +78,7 @@ export default function Home() {
           <div className='flex flex-col lg:flex-row lg:flex-wrap lg:gap-10'>
             <div className='basis-1/3 flex-1 text-center shadow-lg p-5 py-5 rounded-xl my-10 dark:bg-teal-600'>
             <h4 className='pb-5 text-teal-600 dark:text-white'>Tech Store E-commerce</h4>
-              <a href='https://tech-store-prod.vercel.app/' target="_blank"><Image src={web2} className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive"'/></a>
+              <a href='https://tech-store-prod.vercel.app/' target="_blank" rel="noreferrer"><Image src={web2} className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive" '/></a>
               <p className='text-md pt-5 leading-8 text-gray-800 dark:text-white'>The project consists of a <span className='text-teal-600 dark:text-gray-900'>virtual store of technological articles.</span> On it you can find products by categories that can be filtered by shipping cost, price range and in ascending and descending order, as well as added to a wishlist or directly to a shopping cart.
               </p>
               <p className=' flex justify-center gap-2 text-2xl py-5 leading-5 text-gray-800 dark:text-white'> 
@@ -91,11 +91,11 @@ export default function Home() {
                 <SiSequelize />
                 <SiPostgresql />
               </p>
-              <p><a className='bg-teal-600 text-white px-4 py-2 rounded-md dark:bg-gray-900 dark:justify-center dark:px-4 dark:py-2 dark:rounded-md' href='https://github.com/stars/AlejoMejia96/lists/tech-store' target='_blank'>Source code</a></p>
+              <p><a className='bg-teal-600 text-white px-4 py-2 rounded-md dark:bg-gray-900 dark:justify-center dark:px-4 dark:py-2 dark:rounded-md' href='https://github.com/stars/AlejoMejia96/lists/tech-store' target='_blank' rel="noreferrer">Source code</a></p>
             </div>
             <div className='basis-1/3 flex-1 text-center shadow-lg p-5 py-5 rounded-xl my-10 dark:bg-teal-600'>
               <h4 className='pb-5 text-teal-600 dark:text-white'>Dogs App</h4>
-              <a href='https://dogs-app-jade.vercel.app/' target="_blank"><Image src={web1} className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive"'/></a>
+              <a href='https://dogs-app-jade.vercel.app/' target="_blank" rel="noreferrer"><Image src={web1} className='rounded-lg object-cover width={"100%"} height={"100%"} layout="responsive"'/></a>
               <p className='text-md pt-5 leading-8 text-gray-800 dark:text-white'>The project consists of a <span className='text-teal-600 dark:text-gray-900'>SPA (Single Page Application) </span>that consumes data from an API and allows both the visualization, filtering and sorting of more than 150 dog breeds, as well as the possibility of creating new breeds and adding them to a database.
               </p>
               <p className=' flex justify-center gap-2 text-2xl py-5 leading-5 text-gray-800 dark:text-white'> 
@@ -108,7 +108,7 @@ export default function Home() {
                 <SiSequelize />
                 <SiPostgresql />
               </p>
-              <p><a className='bg-teal-600 text-white px-4 py-2 rounded-md dark:bg-gray-900 dark:justify-center dark:px-4 dark:py-2 dark:rounded-md' href='https://github.com/stars/AlejoMejia96/lists/dogs-app' target='_blank'>Source code</a></p>
+              <p><a className='bg-teal-600 text-white px-4 py-2 rounded-md dark:bg-gray-900 dark:justify-center dark:px-4 dark:py-2 dark:rounded-md' href='https://github.com/stars/AlejoMejia96/lists/dogs-app' target='_blank' rel="noreferrer">Source code</a></p>
             </div>
           </div>
         </div>
